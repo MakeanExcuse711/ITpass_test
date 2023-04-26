@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+        crossorigin="anonymous">
+        <link href="routin.css" rel="stylesheet" type="text/css">
+    <title>routin</title>
+</head>
+
+<body class="bg-light">
+    <div class="container w-75">
+        <h1 class="text-center text-info my-4">routin</h1>
+        <form id="form" class="mb-4">
+            <input type="text" id="input2"
+            class="form-control"
+            placeholder="TODOを入力"
+            autocomplete="off">
+        </form>
+        <ol class="list-group text-secondary" id="ul"></ol>
+    </div>
+    <button type = "submit" name = "name" style="position: relative; left: 20%; top: 50%;" onclick="location.href='https://www.youtube.com/watch?v=BL0x8Zj70No&list=PLAj8qpgZfM0e3YqlMDn3Zt_xsokFlB3zy&index=15'">筋トレ</button>
+    <button type = "submit" name = "name" style="position: relative; left: 20%; top: 50%;" onclick="location.href='https://makeanexcuse711.github.io/it_todo_list/'">todo</button>
+    <form id="form2" class="mb-4">
+        <input type="submit" value = "実行" style="position: relative; left: 20%; top: 50;">
+        </form>
+        <div id="div" style="position: relative; left: 20%; top: 50%"></div>
+
+        <!-- カウント-->
+        <h1 class="text-center text-info my-4">count</h1>
+        <div id="disp_count" style="position: relative; left: 20%; top: 50%">0</div>
+        <input type="button" value="カウントアップ" id="btn_count_up" style="position: relative; left: 20%; top: 50;"/>
+        <input type="button" value="リセット" id="btn_reset" style="position: relative; left: 20%; top: 50;"/>
+        
+        <div id="disp_count2" style="position: relative; left: 80%; top: 50%">0</div>
+        <input type="button" value="カウントアップ" id="btn_count_up2" style="position: relative; left: 80%; top: 50;"/>
+        <input type="button" value="リセット" id="btn__reset" style="position: relative; left: 80%; top: 50;"/>
+        <div class="pie" ><span id="pie"></span></div>
+
+        <h1 class="text-center text-info my-4">progress</h1>
+        <h4 style="text-align:center">1<meter id = "meter1"   high="0.99" >100%</meter> <input type="button" value="カウントアップ" id="btn_progress_up1" /><input type="button" value="リセット" id="btn_reset1" />       
+        2<meter id = "meter2"   high="0.99" >100%</meter> <input type="button" value="カウントアップ" id="btn_progress_up2" /><input type="button" value="リセット" id="btn_reset2" /></h4>   
+        <h4 style="text-align:center">3<meter id = "meter3"   high="0.99" >100%</meter> <input type="button" value="カウントアップ" id="btn_progress_up3" /><input type="button" value="リセット" id="btn_reset3" />  
+        4<meter id = "meter4"   high="0.99" >100%</meter> <input type="button" value="カウントアップ" id="btn_progress_up4" /><input type="button" value="リセット" id="btn_reset4" /></h4>  
+        <h4 style="text-align:center">5<meter id = "meter5"   high="0.99" >100%</meter> <input type="button" value="カウントアップ" id="btn_progress_up5" /><input type="button" value="リセット" id="btn_reset5" />   
+        6<meter id = "meter6"   high="0.99" >100%</meter> <input type="button" value="カウントアップ" id="btn_progress_up6" /><input type="button" value="リセット" id="btn_reset6" /></h4>   
+        <h4 style="text-align:center">7<meter id = "meter7"   high="0.99" >100%</meter> <input type="button" value="カウントアップ" id="btn_progress_up7" /><input type="button" value="リセット" id="btn_reset7" /> 
+        8<meter id = "meter8"   high="0.99" >100%</meter> <input type="button" value="カウントアップ" id="btn_progress_up8" /><input type="button" value="リセット" id="btn_reset8" /></h4>   
+        <h4 style="text-align:center">9<meter id = "meter9"   high="0.99" >100%</meter> <input type="button" value="カウントアップ" id="btn_progress_up9" /><input type="button" value="リセット" id="btn_reset9" />   
+        10<meter id = "meter10"   high="0.99" >100%</meter> <input type="button" value="カウントアップ" id="btn_progress_up10" /><input type="button" value="リセット" id="btn_reset10" /></h4> 
+        <h4 style="text-align:center">11<meter id = "meter11"   high="0.99" >100%</meter> <input type="button" value="カウントアップ" id="btn_progress_up11" /><input type="button" value="リセット" id="btn_reset11" /> 
+        12<meter id = "meter12"   high="0.99" >100%</meter> <input type="button" value="カウントアップ" id="btn_progress_up12" /><input type="button" value="リセット" id="btn_reset12" /></h4> 
+    <script src="routin.js"></script>    
+</body>
+</html>
